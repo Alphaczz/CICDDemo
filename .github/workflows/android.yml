@@ -69,7 +69,7 @@ jobs:
         uses: ReactiveCircus/android-emulator-runner@v2
         with:
           api-level: 29
-          script: ./gradle connectCheck
+          script: ./gradlew connectCheck
 
       - name: Upload test report
         uses: actions/upload-artifact@v3
