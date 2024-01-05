@@ -11,6 +11,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
+      - name: Run gradle
+        run: ./gradlew test
+
       - name: Checkout the code
         uses: actions/checkout@v2
 
