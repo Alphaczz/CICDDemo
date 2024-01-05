@@ -19,11 +19,17 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: gradle
+
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
 
+    - name: Upload html test report
+      uses: actions/upload-artifact@v3
+      with:
+        name: lint.html
+        path: app/build/reports/lint-result-debug.html
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
       with:
