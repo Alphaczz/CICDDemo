@@ -1,0 +1,6 @@
+com.example.cicddemo.test.app-annotation-experimental-1.3.0-0 C:\Users\shiva\.gradle\caches\transforms-3\143ca4c785d5396adfea1367054f972f\transformed\annotation-experimental-1.3.0\res
+com.example.cicddemo.test.app-core-1.5.0-1 C:\Users\shiva\.gradle\caches\transforms-3\582d4bd6aa52956075df896a3594a5dc\transformed\core-1.5.0\res
+com.example.cicddemo.test.app-androidTest-2 C:\Users\shiva\AndroidStudioProjects\CICDDemo\app\build\generated\res\resValues\androidTest\debug
+com.example.cicddemo.test.app-mergeDebugAndroidTestResources-3 C:\Users\shiva\AndroidStudioProjects\CICDDemo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.cicddemo.test.app-mergeDebugAndroidTestResources-4 C:\Users\shiva\AndroidStudioProjects\CICDDemo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.cicddemo.test.app-debugAndroidTest-5 C:\Users\shiva\AndroidStudioProjects\CICDDemo\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
