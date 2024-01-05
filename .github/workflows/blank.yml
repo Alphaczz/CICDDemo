@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run gradle
-        run: ./gradlew test
+        run: ./gradlew lintDebug
 
       - name: Checkout the code
         uses: actions/checkout@v2
