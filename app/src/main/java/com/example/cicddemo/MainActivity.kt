@@ -17,5 +17,5 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
-    //sample
+    //sampl1e
 }
