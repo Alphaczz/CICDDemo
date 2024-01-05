@@ -35,4 +35,11 @@ jobs:
       with:
         name: CICDDemo.apk
         path: app/build/outputs/apk/debug/app-debug.apk
-
+  unit-test:
+    needs: [lint]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v3
+      - name: Run tests
+        run: ./gradlew test
